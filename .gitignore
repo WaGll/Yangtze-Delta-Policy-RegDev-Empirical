@@ -1,10 +1,9 @@
 # Raw/confidential data
-# Raw/confidential data
-data/raw/reg.xlsx
 data/raw/*.xlsx
 data/raw/*.csv
+
+# shapefile
 data/raw/city_shapefile/*
-data/README.md
 
 # Generated data
 data/interim/*
