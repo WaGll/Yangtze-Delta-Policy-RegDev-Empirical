@@ -1,4 +1,4 @@
-# data
+# gdata
 
 ## External Data
 
@@ -25,7 +25,7 @@
 - 专利数据库
 - 企查查 / 天眼查 / CSMAR / Wind 等商业数据库
 
-# Interim Data
+## Interim Data
 
 本目录保存中间处理数据，例如缺失值插补后的面板数据。
 
