@@ -1,4 +1,4 @@
-# gdata
+# data
 
 ## External Data
 
@@ -12,6 +12,7 @@
 - 中国城市统计年鉴
 - 各省市统计年鉴
 - 地方统计公报
+- EPS平台
 
 ### Geographic Data
 
@@ -22,8 +23,8 @@
 
 ### Innovation and Industry Data
 
-- 专利数据库
-- 企查查 / 天眼查 / CSMAR / Wind 等商业数据库
+- 国家专利数据库
+- 天眼查 / CSMAR / Wind 等商业数据库
 
 ## Interim Data
 
@@ -54,17 +55,10 @@ final_panel_for_stata.xlsx
 final_panel_for_stata.dta
 ```
 
-这些文件由 Python 数据流水线自动生成，供 Stata 计量脚本读取。
 
 ## Raw Data
 
-请将原始面板数据放置为：
-
-```text
-data/raw/reg.xlsx
-```
-
-建议不要将真实原始数据上传到公开 GitHub 仓库，除非你确认数据授权允许公开。
+存放原始回归数据以及地理经纬度数据
 
 ### Required Panel File
 
