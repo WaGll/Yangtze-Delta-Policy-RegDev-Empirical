@@ -2,9 +2,8 @@
 data/raw/reg.xlsx
 data/raw/*.xlsx
 data/raw/*.csv
-data/raw/city_shapefile/*
-!data/raw/README.md
-!data/raw/city_shapefile/README.md
+data/README.md
+!data/raw/city_shapefile
 
 
 
