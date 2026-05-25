@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "Green Total Factor Productivity, Multi-period DID and Spatial Econometrics"
+message: "If you use this repository, please cite it as below."
+type: software
+authors:
+  - family-names: Ward
+    given-names: Dennis
+year: 2026
+license: MIT

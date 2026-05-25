@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Green TFP, DID and Spatial Econometrics</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; color: #1f2937; background: #f8fafc; }
+    header { background: linear-gradient(135deg, #0f766e, #1d4ed8); color: white; padding: 72px 10%; }
+    header h1 { font-size: 42px; max-width: 920px; line-height: 1.15; }
+    header p { font-size: 18px; max-width: 760px; opacity: 0.95; }
+    main { padding: 48px 10%; }
+    section { background: white; border-radius: 18px; padding: 28px; margin-bottom: 24px; box-shadow: 0 10px 28px rgba(15,23,42,0.08); }
+    h2 { color: #0f766e; }
+    code, pre { background: #f1f5f9; border-radius: 8px; padding: 2px 6px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+    .card { border: 1px solid #e5e7eb; border-radius: 14px; padding: 18px; background: #ffffff; }
+    footer { padding: 32px 10%; color: #64748b; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Green Total Factor Productivity, Multi-period DID and Spatial Econometrics</h1>
+    <p>A reproducible research pipeline using Python and Stata for empirical policy evaluation, SBM-GML productivity measurement and spatial econometric analysis.</p>
+  </header>
+  <main>
+    <section>
+      <h2>Project Overview</h2>
+      <p>本项目围绕城市面板数据，构建从原始数据到清洗数据、变量构建、SBM-GML 测算、多期 DID 和空间计量模型的一体化复现流程。</p>
+    </section>
+    <section>
+      <h2>Core Methods</h2>
+      <div class="grid">
+        <div class="card"><strong>Data Pipeline</strong><br/>raw → interim → processed</div>
+        <div class="card"><strong>SBM-GML</strong><br/>undesirable outputs included</div>
+        <div class="card"><strong>Multi-period DID</strong><br/>baseline, event study, placebo</div>
+        <div class="card"><strong>Spatial Models</strong><br/>Moran's I, SDM, SAR robustness</div>
+      </div>
+    </section>
+    <section>
+      <h2>Reproducibility</h2>
+      <pre>python scripts/python/01_raw_to_interim.py
+python scripts/python/02_construct_variables.py
+python scripts/python/03_sbm_gml.py
+python scripts/python/04_export_for_stata.py</pre>
+    </section>
+  </main>
+  <footer>Research replication package for academic portfolio and thesis documentation.</footer>
+</body>
+</html>
