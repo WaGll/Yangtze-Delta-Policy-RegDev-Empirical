@@ -2,10 +2,9 @@
 data/raw/reg.xlsx
 data/raw/*.xlsx
 data/raw/*.csv
-data/README.md
 !data/raw/city_shapefile
 
-
+data/README.md
 
 # Generated data
 data/interim/*
